@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motorcycle Mania</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="pStyle.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Motorcycle Mania</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="products.html">Products<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactUs.html">Contact Us</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html">Cart <span id="cart-count" class="badge badge-pill badge-primary">0</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="admin.html">Log In</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="category-buttons">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav nav-pills nav-fill">
+                        <li class="nav nav-tabs">
+                            <a class="nav-link" href="ev.html">EV</a>
+                        </li>
+                        <li class="nav nav-tabs">
+                            <a class="nav-link" href="adventure.html">ADVENTURE</a>
+                        </li>
+                        <li class="nav nav-tabs">
+                            <a class="nav-link" href="sports.html">SPORTS</a>
+                        </li>
+                        <li class="nav nav-tabs">
+                            <a class="nav-link" href="supersports.html">SUPER SPORTS</a>
+                        </li>
+                        <li class="nav nav-tabs">
+                            <a class="nav-link" href="tourer.html">TOURER</a>
+                        </li>
+                        <li class="nav nav-tabs">
+                            <a class="nav-link" href="scooters.html">SCOOTERS</a>
+                        </li>
+                        <li class="nav nav-tabs">
+                            <a class="nav-link" href="ONS.html">ON ROAD SPORTS</a>
+                        </li>
+                        <li class="nav nav-tabs">
+                            <a class="nav-link active" href="underbone.html">UNDERBONE</a>
+                        </li>
+                        <li class="nav nav-tabs">
+                            <a class="nav-link" href="business.html">BUSINESS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section class="featured-motorcycles">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-4 mt-4">
+                        <div class="card">
+                            <img src="https://cms.hondaph.com/images/products/65a9d86129932.png" class="card-img-top" alt="The All-New EM1 e:">
+                            <div class="card-body">
+                                <h5 class="card-title">Wave RSX (DISC)</h5>
+                                <p class="card-text">₱ 64,900.00</p>
+                                <button class="btn btn-block btn-outline-success">Add to Cart</button>
+                                <button class="btn btn-block btn-outline-danger"
+                                data-toggle="modal"
+                                data-target="#specsModal"
+                                data-product-name="Wave RSX (DISC)"
+                                data-product-description="The Wave RSX turns your riding experience into something remarkable. With its newest sporty dynamic design bringing out impressive stickers, functional features providing convenience, plus fuel efficiency upto 69.5 km/l powered by PGM-FI, this underbone lets you stands out wherever you go."
+                                data-product-specs="Engine Type: 4-Stroke, SOHC, Air-Cooled, Displacement: 109cc, Bore & Stroke: 50.0 x 55.6 (mm), Starting System: Electric / Kick, Ignition System: Full Transisterized, Transmission Type: Manual, 4-Speed Constant Mesh, Suspension (Front): Telescopic, Suspension (Rear): Twin Shock, Brake Type (Front): Hydraulic Disc, Brake Type (Rear): Mechanical Leading Trailing, Tire Size (Front): 70/90-17M/C 38P (Tube Type), Tire Size (Rear): 80/90-17M/C 50P (Tube Type), Wheel Type: Wire Spoke, Wheelbase: 1,227mm, Overall Dimensions: L x W x H: 1,922 x 709 x 1,082 (mm), Curb Weight: 97 kg, Seat Height: 760mm, Ground Clearance: 135 mm, Fuel Tank Capacity: 4.0L, Fuel System: PGM-FI, Battery Type: 12V - 3Ah MF-WET, Engine Oil Capacity: 1.0L, Compression Ratio: 9.3:1, Maximum Power: 6.46 kW @ 7,500 rpm, Maximum Torque: 8.70 N.m @ 6,000 rpm, Gear Shift Pattern: N-1-2-3-4-N (Rotary), Fuel Consumption: 69.5 Km/L (WMTC Test Method)"
+                                >VIEW FULL SPECS</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4 mt-4">
+                        <div class="card">
+                            <img src="https://cms.hondaph.com/images/products/65a9dbdb95398.png" class="card-img-top" alt="The All-New EM1 e:">
+                            <div class="card-body">
+                                <h5 class="card-title">The New Wave RSX (Drum)</h5>
+                                <p class="card-text">₱ 62,900.00</p>
+                                <button class="btn btn-block btn-outline-success">Add to Cart</button>
+                                <button class="btn btn-block btn-outline-danger"
+                                data-toggle="modal"
+                                data-target="#specsModal"
+                                data-product-name="The New Wave RSX (Drum)"
+                                data-product-description="The Wave RSX turns your riding experience into something remarkable. With its newest sporty dynamic design bringing out impressive stickers, functional features providing convenience, plus fuel efficiency upto 69.5 km/l powered by PGM-FI, this underbone lets you stands out wherever you go."
+                                data-product-specs="Engine Type: 4-Stroke, SOHC, Air-Cooled, Displacement: 109cc, Bore & Stroke: 50.0 x 55.6 (mm), Starting System: Electric / Kick, Ignition System: Full Transisterized, Transmission Type: Manual, 4-Speed Constant Mesh, Suspension (Front): Telescopic, Suspension (Rear): Twin Shock, Brake Type (Front): Mechanical Leading Trailing, Brake Type (Rear): Mechanical Leading Trailing, Tire Size (Front): 70/90-17M/C 38P (Tube Type), Tire Size (Rear): 80/90-17M/C 50P (Tube Type), Wheel Type: Wire Spoke, Wheelbase: 1,227mm, Overall Dimensions: L x W x H: 1,922 x 698 x 1,082 (mm), Curb Weight: 97 kg, Seat Height: 760mm, Ground Clearance: 135 mm, Fuel Tank Capacity: 4.0L, Fuel System: PGM-FI, Battery Type: 12V - 3Ah (MF-WET), Engine Oil Capacity: 1.0L, Compression Ratio: 9.3:1, Maximum Power: 6.46 kW @ 7,500 rpm, Maximum Torque: 8.70 N.m @ 6,000 rpm, Gear Shift Pattern: N-1-2-3-4-N (Rotary), Fuel Consumption: 69.5 Km/L (WMTC Test Method)"
+                                >VIEW FULL SPECS</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4 mt-4">
+                        <div class="card">
+                            <img src="https://cms.hondaph.com/images/products/65add5514243d.png" class="card-img-top" alt="The All-New EM1 e:">
+                            <div class="card-body">
+                                <h5 class="card-title">The All-New Winner X (Standard)</h5>
+                                <p class="card-text">₱ 123,900.00</p>
+                                <button class="btn btn-block btn-outline-success">Add to Cart</button>
+                                <button class="btn btn-block btn-outline-danger"
+                                data-toggle="modal"
+                                data-target="#specsModal"
+                                data-product-name="The All-New Winner X (Standard)"
+                                data-product-description=" The All-New Winner X that is designed to let you #RideLikeAChampion is now here! This sports cub is sure to become one of another favorite among Filipino riders with its aggressive sports styling, powerful engine and advanced features. It boasts outstanding performance through its 150cc, DOHC, 6-Speed, Liquid-Cooled Engine along with worthwhile features: USB Charging Port, Smart Key System, All LED Lighting System, Digital Meter Panel, Bank Angle Sensor, Assist & Slipper Clutch, Colored Cast Wheel, and Anti-Lock Braking System available in ABS Racing and ABS Premium variants only."
+                                data-product-specs="Engine Type: 4-Stroke, 4-Valve, DOHC, Liquid-Cooled, Displacement: 149cc, Bore & Stroke: 57.3 x 57.8 mm, Starting System: Electric, Ignition System: Full Transisterized, Transmission Type: Manual, 6-speed constant mesh, Suspension (Front): Telescopic, Suspension (Rear): Single Cylindrical Suspension, Brake Type (Front): Hydraulic Disc, Brake Type (Rear): Hydraulic Disc, Tire Size & Type (Front): 90/80-17M/C 46P (Tubeless), Tire Size & Type (Rear): 120/70-17M/C 58P (Tubeless), Wheel Type: Cast Wheel, Wheel Base: 1,278 mm, Overall Dimensions: L x W x H: 2,019 x 725 x 1,104 mm, Curb Weight: 122 kg, Seat Height: 795 mm, Ground Clearance: 151 mm, Fuel Tank Capacity: 4.5 L, Fuel System: PGM-FI, Battery Type: 12V 5Ah MF-WET, Engine Oil Capacity: 1.3 L, Maximum Power: 11.5 kW @ 9,000 rpm, Maximum Torque: 13.5 Nm @ 7,000 rpm, Gear Shift Pattern: 1-N-2-3-4-5-6 (Down Up), Compression Ratio: 11.3 : 1, Fuel Consumption: 52.3 km/L (WMTC Test Method)"
+                                >VIEW FULL SPECS</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-4 mt-4">
+                        <div class="card">
+                            <img src="https://cms.hondaph.com/images/products/65adec5ede9eb.png" class="card-img-top" alt="The All-New EM1 e:">
+                            <div class="card-body">
+                                <h5 class="card-title">The All-New Winner X (ABS Premium)</h5>
+                                <p class="card-text">₱ 129,900.00</p>
+                                <button class="btn btn-block btn-outline-success">Add to Cart</button>
+                                <button class="btn btn-block btn-outline-danger"
+                                data-toggle="modal"
+                                data-target="#specsModal"
+                                data-product-name="The All-New Winner X (ABS Premium)"
+                                data-product-description="The All-New Winner X that is designed to let you #RideLikeAChampion is now here! This sports cub is sure to become one of another favorite among Filipino riders with its aggressive sports styling, powerful engine and advanced features. It boasts outstanding performance through its 150cc, DOHC, 6-Speed, Liquid-Cooled Engine along with worthwhile features: USB Charging Port, Smart Key System, All LED Lighting System, Digital Meter Panel, Bank Angle Sensor, Assist & Slipper Clutch, Colored Cast Wheel, and Anti-Lock Braking System available in ABS Racing and ABS Premium variants only."
+                                data-product-specs="Engine Type: 4-Stroke, 4-Valve, DOHC, Liquid-Cooled, Displacement: 149cc, Bore & Stroke: 57.3 x 57.8 mm, Starting System: Electric, Ignition System: Full Transistorized, Transmission Type: Manual, 6-speed constant mesh, Suspension (Front): Telescopic, Suspension (Rear): Single Cylindrical Suspension, Brake Type (Front): Hydraulic Disc with ABS, Brake Type (Rear): Hydraulic Disc, Tire Size (Front): 90/80-17M/C 46P (Tubeless), Tire Size (Rear): 120/70-17M/C 58P (Tubeless), Wheel Type: Cast Wheel, Wheel Base: 1,278 mm, Overall Dimensions: 2,019 x 725 x 1,104 mm, Curb Weight: 122 kg, Seat Height: 795 mm, Ground Clearance: 151 mm, Fuel Tank Capacity: 4.5 L, Fuel System: PGM-FI, Battery Type: 12V 5Ah MF-WET, Engine Oil Capacity: 1.3 L, Maximum Power: 11.5kW @ 9,000rpm, Maximum Torque: 13.5Nm @ 7,000rpm, Gear Shift Pattern: 1-N-2-3-4-5-6 (Down Up), Compression Ratio: 11.3 : 1, Fuel Consumption: WMTC Test Method"
+                                >VIEW FULL SPECS</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4 mt-4">
+                        <div class="card">
+                            <img src="https://cms.hondaph.com/images/products/65adeedc4981f.png" class="card-img-top" alt="The All-New EM1 e:">
+                            <div class="card-body">
+                                <h5 class="card-title">The All-New Winner X (ABS Racing Type)</h5>
+                                <p class="card-text">₱ 131,900.00</p>
+                                <button class="btn btn-block btn-outline-success">Add to Cart</button>
+                                <button class="btn btn-block btn-outline-danger"
+                                data-toggle="modal"
+                                data-target="#specsModal"
+                                data-product-name="The All-New Winner X (ABS Racing Type)"
+                                data-product-description="The All-New Winner X that is designed to let you #RideLikeAChampion is now here! This sports cub is sure to become one of another favorite among Filipino riders with its aggressive sports styling, powerful engine and advanced features. It boasts outstanding performance through its 150cc, DOHC, 6-Speed, Liquid-Cooled Engine along with worthwhile features: USB Charging Port, Smart Key System, All LED Lighting System, Digital Meter Panel, Bank Angle Sensor, Assist & Slipper Clutch, Colored Cast Wheel, and Anti-Lock Braking System available in ABS Racing and ABS Premium variants only."
+                                data-product-specs="Engine Type: 4-Stroke, 4-Valve, DOHC, Liquid-Cooled, Displacement: 149cc, Bore & Stroke: 57.3 x 57.8 mm, Starting System: Electric, Ignition System: Full Transisterized, Transmission Type: Manual, 6-speed constant mesh, Suspension (Front): Telescopic, Suspension (Rear): Single Cylindrical Suspension, Brake Type (Front): Hydraulic Disc with ABS, Brake Type (Rear): Hydraulic Disc, Tire Size & Type (Front): 90/80-17M/C 46P (Tubeless), Tire Size & Type (Rear): 120/70-17M/C 58P (Tubeless), Wheel Type: Cast Wheel, Wheel Base: 1,278 mm, Overall Dimensions: L x W x H: 2,019 x 725 x 1,104 mm, Curb Weight: 122 kg, Seat Height: 795 mm, Ground Clearance: 151 mm, Fuel Tank Capacity: 4.5 L, Fuel System: PGM-FI, Battery Type: 12V 5Ah MF-WET, Engine Oil Capacity: 1.3 L, Maximum Power: 11.5 kW @ 9,000 rpm, Maximum Torque: 13.5 Nm @ 7,000 rpm, Gear Shift Pattern: 1-N-2-3-4-5-6 (Down Up), Compression Ratio: 11.3 : 1, Fuel Consumption: 52.3 km/L (WMTC Test Method)"
+                                >VIEW FULL SPECS</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal for Full Specs -->
+        <div class="modal fade" id="specsModal" tabindex="-1" role="dialog" aria-labelledby="specsModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="specsModalLabel">Motorcycle Specifications</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h4 id="product-name"></h4>
+                        <p id="product-description"></p>
+                        <h5>Specifications:</h5>
+                        <ul id="product-specs"></ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="deals-promotions">
+            <div class="container">
+                <h2 class="section-title">Deals & Promotions</h2>
+                <div class="row">
+                    </div>
+            </div>
+        </section>
+
+        <section class="about-us">
+            <div class="container">
+                <h2 class="section-title">About Us</h2>
+                <p>
+                    We are passionate about motorcycles and dedicated to providing you with the best selection and service.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Motorcycle Mania. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Add event listener to the "View Full Specs" button
+        $('#specsModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget); // Button that triggered the modal
+            var productName = button.data('product-name'); // Extract product name
+            var productDescription = button.data('product-description'); // Extract product description
+            var productSpecs = button.data('product-specs'); // Extract product specs as string
+
+            // Set the modal content
+            var modal = $(this);
+            modal.find('#product-name').text(productName);
+            modal.find('#product-description').text(productDescription);
+
+            // Convert the specs string into a list and append it to the modal
+            var specsArray = productSpecs.split(', ');
+            var specsList = modal.find('#product-specs');
+            specsList.empty(); // Clear any previous content
+            specsArray.forEach(function (spec) {
+                specsList.append('<li>' + spec + '</li>');
+            });
+        });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

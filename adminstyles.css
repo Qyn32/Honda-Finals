@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  .sidebar {
+    background-color: #333;
+    color: white;
+    height: 100vh;
+    padding: 1rem;
+  }
+  
+  .nav-link {
+    color: white;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #555;
+  }
+  
+  .nav-link.active {
+    background-color: #f08080; /* Orange color */
+    color: white;
+  }
+  
+  .main-content {
+    padding: 1rem;
+  }
+  
+  .page-title {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .content {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card {
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .card-text {
+    font-size: 1.2rem;
+    color: #555;
+  }
+
+  #productForm .modal-content {
+    border-radius: 10px;
+  }
+  
+  #productForm .modal-header {
+    background-color: #f08080; /* Orange color */
+    color: white;
+  }
+  
+  #productForm .modal-title {
+    font-weight: bold;
+  }

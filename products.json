@@ -1,0 +1,117 @@
+{
+  "motorcycles": 
+  {
+    "electric": 
+    [
+      {
+          "id": 1,
+          "name": "The All-New EM1 e:",
+          "image": "https://cms.hondaph.com/images/products/66eac6d7e43f6.png",
+          "price": 155400,
+          "tags": ["out-of-stock"]
+      }
+    ],
+    "adventure": 
+    [
+      {
+        "id": 2,
+        "name": "XL750 TRANSALP",
+        "image": "https://www.hondaph.com/honda-bigbikes/images/products/643df38049121.png",
+        "price": 598000,
+        "tags": []
+      },
+      {
+        "id": 5,
+        "name": "The New CRF1100L Africa Twin",
+        "image": "https://www.hondaph.com/honda-bigbikes/images/products/65deee9f00cee.png",
+        "price": 950000,
+        "tags": ["new"]
+      },
+      {
+        "id": 6,
+        "name": "The New CRF1100L Africa Twin Adventure Sports (DCT/ES)",
+        "image": "https://www.hondaph.com/honda-bigbikes/images/products/65deeebb2c0d4.png",
+        "price": 1170000,
+        "tags": []
+      }
+    ],
+    "sports": 
+    [
+      {
+        "id": 7,
+        "name": "CB500F",
+        "image": "https://www.hondaph.com/honda-bigbikes/images/products/61f3950a4fe5f.png",
+        "price": 379000,
+        "tags": ["sale"]
+      },
+      {
+        "id": 8,
+        "name": "The All-New CB650R",
+        "image": "https://www.hondaph.com/honda-bigbikes/images/products/662a1571385aa.png",
+        "price": 524000,
+        "tags": ["new"]
+      },
+      {
+        "id": 9,
+        "name": "The All-New CB650R (E-CLUTCH)",
+        "image": "https://www.hondaph.com/honda-bigbikes/images/products/667fab047fec2.png",
+        "price": 524000,
+        "tags": ["new"]
+      }
+    ],
+    "scooters": 
+    [
+      {
+        "id": 10,
+        "name": "DIO",
+        "image": "https://cms.hondaph.com/images/products/65028b9021df0.png",
+        "price": 62400,
+        "tags": []
+      },
+      {
+        "id": 11,
+        "name": "BeAT (Playful)",
+        "image": "https://cms.hondaph.com/images/products/650ba6028a5af.png",
+        "price": 71900,
+        "tags": []
+      },
+      {
+        "id": 12,
+        "name": "The New CLICK125",
+        "image": "https://cms.hondaph.com/images/products/66d54318e668a.png",
+        "price": 81400,
+        "tags": []
+      }
+    ],
+    "tourer": 
+    [
+      {
+        "id": 13,
+        "name": "The New Gold Wing",
+        "image": "https://www.hondaph.com/honda-bigbikes/images/products/65cc7803c68ce.png",
+        "price": 2000000,
+        "tags": []
+      }
+    ],
+    "underbone": 
+    [
+      {
+        "id": 14,
+        "name": "Wave RSX (DISC)",
+        "image": "https://cms.hondaph.com/images/products/65a9d86129932.png",
+        "price": 64900,
+        "tags": []
+      }
+    ],
+    "business": 
+    [
+      {
+        "id": 15,
+        "name": "The All-New Winner X (Standard)",
+        "image": "https://cms.hondaph.com/images/products/65add5514243d.png",
+        "price": 123900,
+        "tags": []
+      }
+    ]
+  }
+}
